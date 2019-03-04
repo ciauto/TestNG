@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="testNGDemo.TestNG_dependsOn"/>
+      <class name="testNGDemo.TestNGDemo_description"/>
+      <class name="testNGDemo.TestNG_TestParameters"/>
+      <class name="testNGDemo.TestNG_DataProviders1"/>
+      <class name="testNGDemo.TestNGDemoweek4"/>
+      <class name="testNGDemo.TestNG_multipleBrowser"/>
+      <class name="testNGDemo.TestNG_ReportsAndLogs"/>
+      <class name="testNGDemo.TestNG_group"/>
+      <class name="testNGDemo.TestNG_paralleltestA"/>
+      <class name="testNGDemo.TestNGDemo_timeOut"/>
+      <class name="testNGDemo.TestNG_paralleltestB"/>
+      <class name="testNGDemo.TestClass1_preserve1"/>
+      <class name="testNGDemo.TestNG_DataProviders3"/>
+      <class name="testNGDemo.TestNG_DataProviders2"/>
+      <class name="testNGDemo.TestNGDemo_priority"/>
+      <class name="testNGDemo.TestNG_assertion"/>
+      <class name="testNGDemo.TestClass1"/>
+      <class name="testNGDemo.ClassDemo"/>
+      <class name="testNGDemo.TestClass2"/>
+      <class name="testNGDemo.TestClass2_preserve2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

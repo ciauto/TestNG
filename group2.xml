@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+	<test name=" abc test">
+		<groups>
+			<define name="all">
+				<include name="functional-group"></include>
+				<include name="smoke-group"></include>
+			</define>
+			<define name="smoke tests">
+				<include name="smoke-group"></include>
+			</define>
+			<run>
+				<include name="smoke tests"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNGDemo.TestNG_group" />
+		</classes>
+	</test>
+</suite>

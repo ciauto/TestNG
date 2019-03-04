@@ -1,0 +1,7 @@
+<suite name="Smoke Test suite">
+	<test name="smoke test">
+		<classes>
+			<class name="testNGDemo2.Zerobanking_chrome"></class>
+		</classes>
+	</test>
+</suite>

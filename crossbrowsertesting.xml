@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="fireFoxtestcase">
+		<parameter name="browser" value="FireFox" />
+		<classes>
+			<class name="testNGDemo.TestNG_crossBrowserTest" />
+		</classes>
+	</test>
+	<test name="chrometestcase">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testNGDemo.TestNG_crossBrowserTest" />
+		</classes>
+	</test>
+	<test name="ietestcase">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="testNGDemo.TestNG_crossBrowserTest" />
+		</classes>
+	</test>
+</suite>

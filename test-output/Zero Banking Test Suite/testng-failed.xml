@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Zero Banking Test Suite]" parallel="tests">
+  <test name="Login Test Chrome(failed)" parallel="tests">
+    <classes>
+      <class name="testNGDemo2.Zerobanking_chrome">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testNGDemo2.Zerobanking_chrome -->
+    </classes>
+  </test> <!-- Login Test Chrome(failed) -->
+  <test name="Login Test Firefox(failed)" parallel="tests">
+    <classes>
+      <class name="testNGDemo2.Zerobanking_ff">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testNGDemo2.Zerobanking_ff -->
+    </classes>
+  </test> <!-- Login Test Firefox(failed) -->
+</suite> <!-- Failed suite [Zero Banking Test Suite] -->

@@ -1,0 +1,8 @@
+<suite name="Zerobanking regression testing suite">
+	<test name= "regression test">
+		<classes>
+			<class name="testNGDemo2.Zerobanking_ff"></class>
+			<class name="testNGDemo2.Zerobanking_chrome"></class>
+		</classes>
+	</test>
+</suite>

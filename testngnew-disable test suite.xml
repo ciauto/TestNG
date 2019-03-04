@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite">
+	<test name="Smoke Test Cases">
+		<classes>
+			<class name="testNGDemo.TestClass1"></class>
+			<class name="testNGDemo.TestClass2"></class>
+		</classes>
+	</test>
+	<test name="Sanity Test Cases" enabled="false">
+		<classes>
+			<class name="testNGDemo.TestClass1"></class>
+			<class name="testNGDemo.TestClass2"></class>
+		</classes>
+	</test>
+</suite>

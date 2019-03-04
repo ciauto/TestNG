@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Zerobanking regression testing suite]">
+  <test name="regression test(failed)">
+    <classes>
+      <class name="testNGDemo2.Zerobanking_ff">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testNGDemo2.Zerobanking_ff -->
+    </classes>
+  </test> <!-- regression test(failed) -->
+</suite> <!-- Failed suite [Zerobanking regression testing suite] -->

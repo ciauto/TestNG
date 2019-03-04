@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <test name="Test1(failed)">
+    <parameter name="response" value="200"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="platform" value="mac"/>
+    <classes>
+      <class name="testNGDemo.Parameter">
+        <methods>
+          <include name="testMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testNGDemo.Parameter -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

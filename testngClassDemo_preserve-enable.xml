@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Preserve Enable Demo TestSuite">
+	<test name="Test 1" preserve-order="false">
+		<classes>
+			<class name="testNGDemo.TestClass2_preserve2"></class>
+			<class name="testNGDemo.TestClass1_preserve1"></class>
+		</classes>
+	</test>
+</suite>

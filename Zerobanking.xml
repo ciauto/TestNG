@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Zero Banking Test Suite" parallel="tests" thread-count="3">
+  <test name="Login Test Firefox">
+    <classes>
+      <class name="testNGDemo2.Zerobanking_ff"/>
+    </classes>
+  </test> 
+    <test name="Login Test Chrome">
+    <classes>
+      <class name="testNGDemo2.Zerobanking_chrome"/>
+    </classes>
+  </test> 
+</suite> 
